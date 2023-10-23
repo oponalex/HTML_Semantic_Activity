@@ -27,7 +27,16 @@
 
     <section>
         <h2>This is Contact Us Section</h2>
-        <hr>
+        <form action="/action_page.php">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="" cols="30" rows="10" required></textarea><br><br>
+            <button>Submit</button>
+          </form>
+          <hr>
     </section>
 </body>
 </html>
